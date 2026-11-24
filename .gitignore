@@ -1,0 +1,31 @@
+# --- Next.js / Node (vespera-buccheri/) ---
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+npm-debug.log*
+
+# --- Secrets / env (JANGAN pernah commit) ---
+.env
+.env*.local
+.env.production
+
+# --- Supabase CLI artifacts ---
+supabase/.branches/
+supabase/.temp/
+
+# --- Testing / tooling artifacts ---
+coverage/
+playwright-report/
+test-results/
+
+# --- Source archive (hasil export desain, besar & tidak dipakai runtime) ---
+*.zip
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
